@@ -2,10 +2,10 @@
 <br> 
 <br>
 <img src="./src/assets/icons/ic-logo-badge.svg" height="140" />
-<h3> Slash Admin </h3>
+<h3> AD Maven </h3>
   <p>
     <p style="font-size: 14px">
-      Slash Admin is a modern admin dashboard template built with React 19, Vite, shadcn/ui, and TypeScript. It is designed to help developers quickly create powerful admin management systems.
+      AD Maven is a modern admin dashboard template built with React 19, Vite, shadcn/ui, and TypeScript. It is designed to help developers quickly create powerful admin management systems.
     </p>
     <br />
     <br />
@@ -21,19 +21,6 @@
 
 **English** | [中文](./README.zh-CN.md)
 
-##  Sponsor
-<div style="display: flex; gap: 50px"> 
-  <img style="width:300px" src="https://d3george.github.io/github-static/pay/weixin.jpg" >
-  <img style="width:300px" src="https://d3george.github.io/github-static/pay/buymeacoffee.png" />
-</div>
-
-## Preview
-+ https://admin.slashspaces.com/
-
-|![login.png](https://d3george.github.io/github-static/slash-admin/sa-web-light.jpeg)|![login_dark.png](https://d3george.github.io/github-static/slash-admin/sa-web-dark.jpeg)
-| ----------------------------------------------------------------- | ------------------------------------------------------------------- |
-|![analysis.png](https://d3george.github.io/github-static/slash-admin/sa-mobile-light.jpeg)|![workbench.png](https://d3george.github.io/github-static/slash-admin/sa-mobile-dark.jpeg)
-| | 
 
 ## Features
 
@@ -55,9 +42,7 @@
 
 ### Get the Project Code
 
-```bash
-git clone https://github.com/d3george/slash-admin.git
-```
+
 
 ### Install Dependencies
 

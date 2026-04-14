@@ -1,6 +1,7 @@
-import { cn } from "@/utils";
 import { NavLink } from "react-router";
-import { Icon } from "../icon";
+// 导入图片
+import logoImage from "@/assets/images/logo/logo.png";
+import { cn } from "@/utils";
 
 interface Props {
 	size?: number | string;
@@ -9,7 +10,17 @@ interface Props {
 function Logo({ size = 50, className }: Props) {
 	return (
 		<NavLink to="/" className={cn(className)}>
-			<Icon icon="local:ic-logo-badge" size={size} color="var(--colors-palette-primary-default)" />
+			<img
+				src={logoImage}
+				alt="Logo"
+				className="relative inline-block"
+				style={{
+					width: size,
+					height: size,
+					left: "-1000000px",
+					filter: `drop-shadow(var(--colors-palette-primary-default) 1000000px 0)`,
+				}}
+			/>
 		</NavLink>
 	);
 }

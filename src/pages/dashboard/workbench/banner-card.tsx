@@ -1,10 +1,8 @@
+import type { CSSProperties } from "react";
 import bgImg from "@/assets/images/background/banner-1.png";
 import Character from "@/assets/images/characters/character_3.png";
-import { Icon } from "@/components/icon";
 import { GLOBAL_CONFIG } from "@/global-config";
-import { Button } from "@/ui/button";
 import { Text, Title } from "@/ui/typography";
-import type { CSSProperties } from "react";
 
 export default function BannerCard() {
 	const bgStyle: CSSProperties = {
@@ -34,15 +32,6 @@ export default function BannerCard() {
 								The rand new User Interface with power of Shadcn/ui Components. Explore the Endless possibilities with{" "}
 								{GLOBAL_CONFIG.appName}.
 							</Text>
-
-							<Button
-								variant="outline"
-								className="w-fit bg-white text-black"
-								onClick={() => window.open("https://discord.gg/fXemAXVNDa")}
-							>
-								<Icon icon="carbon:logo-discord" size={24} />
-								<span className="ml-2 font-black">Join Discord</span>
-							</Button>
 						</div>
 					</div>
 
